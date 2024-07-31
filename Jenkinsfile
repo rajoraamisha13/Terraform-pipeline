@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Checkout the code from the repository
-                git 'https://github.com/rajoraamisha13/Terraform-pipeline.git'  // Replace with your repository URL
+                sh 'git https://github.com/rajoraamisha13/Terraform-pipeline.git'  // Replace with your repository URL
             }
         }
         
