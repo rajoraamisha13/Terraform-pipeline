@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
 
   # Optionally, you can add a tag
   tags = {
-    Name = "MyExampleInstance"
+    Name = "MyExampleInstance1"
   }
 
   # Optionally, you can specify the key name for SSH access
